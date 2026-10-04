@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-image: 
+    url("images/atmosphere-earth-nature-blue-b737a2f44f46d201d5980069c50a8c8b.jpg");
+    background-size: cover;
+    font-size: large;
+    font-width: 60rem;
+    font-weight: bold;
+    color: rgb(62, 54, 43);
+}
+img {
+    max-width: 60rem;
+    max-height: 60rem;
+}
+a {
+    color: rgb(165, 0, 0);
+}
+p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+nav {
+    background-color: rgb(153, 174, 255);
+    border: .2em solid DarkSlateGray;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 1rem;
+    color: black;;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: whitesmoke;
+}
